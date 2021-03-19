@@ -8,7 +8,7 @@ import {WinstonLogger} from '../loaders/winston-logger';
 
 const serviceContainer = new Container();
 
-serviceContainer.bind<DBInterface>(DB).to(LocalDB);
-serviceContainer.bind<LoggerInterface>(Logger).to(WinstonLogger);
+serviceContainer.bind<DBInterface>(DB).to(LocalDB).inSingletonScope();
+serviceContainer.bind<LoggerInterface>(Logger).to(WinstonLogger).inSingletonScope();
 
 export { serviceContainer };

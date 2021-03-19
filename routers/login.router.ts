@@ -11,15 +11,10 @@ const UserServiceInstance = new UsersService( serviceContainer.get<DBInterface>(
 router.post('/', async ( req: express.Request, res: express.Response, next: any ) => {
     try {
         const { userId } = req.body;
-        const token: string | null = await UserServiceInstance.login( userId );
 
-        if ( token )
-            return res.status(200).json( { token } );
+        UserServiceInstance.login( userId );
 
-        return next({
-            statusCode: 403,
-            message: 'Incorrect credentials!'
-        });
+        return res.status(200).json( { userId } );
     }
     catch( error ){
         next( routerErrorLog('POST /login', req.body, error ) );

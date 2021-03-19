@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b5807b9-bfe2-409f-8f8b-11818eed4335" name="Default Changelist" comment="" />
+    <list default="true" id="5b5807b9-bfe2-409f-8f8b-11818eed4335" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/services/crypto.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket/socket.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket/ws-constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/authorization.middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loaders/localdb.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loaders/localdb.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/login.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routers/login.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/users.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/routers/crypto.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/groups.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users-groups.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users.service.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/services/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/db.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/db.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/group.types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/user-group.types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/user.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/user.types.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pwHpgW4c7L0FcY0F3L6feLpl7x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,8 +48,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Agile_Tools" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\meiso\WebstormProjects\crypto-app\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -27,7 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616087417538</updated>
       <workItem from="1616087418658" duration="1546000" />
-      <workItem from="1616143607950" duration="274000" />
+      <workItem from="1616143607950" duration="8197000" />
+      <workItem from="1616155022463" duration="702000" />
     </task>
     <servers />
   </component>
@@ -35,25 +87,41 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1616087831368">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1616148867160">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831368" />
-    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1616087831367">
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616148867160" />
+    <state x="836" y="482" key="Github.ShareDialog" timestamp="1616143993523">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831367" />
-    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1616087831367">
+    <state x="836" y="482" key="Github.ShareDialog/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616143993523" />
+    <state x="755" y="194" key="Github.UntrackedFilesDialog" timestamp="1616144014701">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831367" />
-    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1616087831367">
+    <state x="755" y="194" key="Github.UntrackedFilesDialog/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616144014701" />
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1616149898063">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831367" />
-    <state x="668" y="297" width="583" height="566" key="find.popup" timestamp="1616091970862">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616149898063" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1616149898063">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="668" y="297" width="583" height="566" key="find.popup/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616091970862" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616149898063" />
+    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1616149898063">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616149898063" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1616149898063">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616149898063" />
+    <state x="668" y="297" width="583" height="566" key="find.popup" timestamp="1616152044019">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="668" y="297" width="583" height="566" key="find.popup/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616152044019" />
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1616151955530">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="623" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616151955530" />
   </component>
 </project>

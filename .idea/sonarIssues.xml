@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/auth/authorization.middleware.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/config/inversify.config.ts">
           <value>
             <set />
@@ -28,6 +33,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/routers/crypto.router.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/routers/index.ts">
           <value>
             <set />
@@ -38,7 +48,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/services/crypto.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/services/users.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/socket/socket.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/socket/socket.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/socket/ws-constants.ts">
           <value>
             <set />
           </value>
@@ -49,6 +79,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/types/db.types.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/types/user.types.ts">
           <value>
             <set />
           </value>

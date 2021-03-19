@@ -3,19 +3,30 @@ import { config } from 'dotenv';
 import { serviceContainer } from './config/inversify.config';
 import { LoggerInterface, Logger } from "./types/logger.types";
 import app from './routers';
+import { socketConnector } from "./socket/socket";
+
+const socketIo = require('socket.io');
 
 (async function main() {
     try {
         const loggerInstance = serviceContainer.get<LoggerInterface>(Logger);
 
-        console.log("Successfully connected to db!");
-
         // @ts-ignore
         const { APP_PORT } = config().parsed;
         const server = http.createServer(app);
 
+        const io = socketIo(server, {
+            pingTimeout: 60000,
+            cors: {
+                origin: '*',
+            }
+        });
+
+
         server.listen(APP_PORT, function () {
             console.info(`Server is running on ${APP_PORT} port!`);
+
+            socketConnector(io);
 
             process.on('uncaughtException', function ( err: Error ) {
                 loggerInstance.logError(

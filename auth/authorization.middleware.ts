@@ -1,27 +1,18 @@
 import * as express from "express";
-import jwt from 'jsonwebtoken';
+import {UsersService} from "../services/users.service";
+import {serviceContainer} from "../config/inversify.config";
+import {DB, DBInterface} from "../types/db.types";
 
-export const authorization = async (req: express.Request, res: express.Response, next: any) => {
-    const authHeader = req.header('Authorization');
+const UserServiceInstance = new UsersService( serviceContainer.get<DBInterface>(DB) );
 
-    if ( authHeader ) {
-        const token = authHeader.replace('Bearer ', '');
-        const clockTimestamp = Math.floor(Date.now() / 1000);
-        // @ts-ignore
-        const { exp, user: userId } = jwt.decode(token);
+export const authorization = async (req: express.Request, _res: express.Response, next: any) => {
+    const { userId = '' } = req.body;
 
-        if ( exp < clockTimestamp ) {
-            return next({
-                statusCode: 403,
-                message: 'Token Expired!'
-            })
-        } else {
-            return next();
-        }
-    }
+    if( UserServiceInstance.authorize( userId ) )
+        return next();
 
     return next({
         statusCode: 401,
-        message: 'Token is incorrect!'
+        message: 'User id is incorrect!'
     });
 };
