@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b5807b9-bfe2-409f-8f8b-11818eed4335" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1pwHpgW4c7L0FcY0F3L6feLpl7x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\meiso\WebstormProjects\crypto-app\node_modules\typescript\lib" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b5807b9-bfe2-409f-8f8b-11818eed4335" name="Default Changelist" comment="" />
+      <created>1616087417538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616087417538</updated>
+      <workItem from="1616087418658" duration="1546000" />
+      <workItem from="1616143607950" duration="274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom" timestamp="1616087831368">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831368" />
+    <state width="1899" height="315" key="GridCell.Tab.0.center" timestamp="1616087831367">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="315" key="GridCell.Tab.0.center/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831367" />
+    <state width="1899" height="315" key="GridCell.Tab.0.left" timestamp="1616087831367">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="315" key="GridCell.Tab.0.left/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831367" />
+    <state width="1899" height="315" key="GridCell.Tab.0.right" timestamp="1616087831367">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="315" key="GridCell.Tab.0.right/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616087831367" />
+    <state x="668" y="297" width="583" height="566" key="find.popup" timestamp="1616091970862">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="668" y="297" width="583" height="566" key="find.popup/0.0.1920.1160/-1600.0.1600.860@0.0.1920.1160" timestamp="1616091970862" />
+  </component>
+</project>
